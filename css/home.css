@@ -1,10 +1,119 @@
+.bar{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.red:hover{
+background-color: rgb(234, 99, 99);
+border-radius: 10px;
+transition: 2s;
+} 
+
 .img{
      display: flex;
+     flex-wrap: wrap;
      justify-content: space-evenly; 
-position: relative;
+  
 }
-@media screen and( max-width:300px) {
+@media screen and( min-width:200px) {
     .img{
-      flex-wrap:wrap;
+      display: block;
     }
   }
+  .burger{
+    text-align: center;
+    color: rgb(234, 99, 99);
+  }
+
+  .home{
+    transition: 2s;
+
+  }
+  .home:hover{
+    cursor: pointer;
+ transform: scale(0.9);
+ 
+}
+
+
+.name{
+position: relative;
+left: 40%;
+  width: 300px;
+  text-align: center;
+  color: rgb(234, 99, 99);
+   border-bottom: 4px solid rgb(234, 99, 99);
+   border-radius:50px;
+  margin-top: 40px;
+  font-size: 30px;
+
+}
+.div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer{
+display: flex;
+flex-wrap: wrap;
+  height:300px;
+  width: 100%;
+  border: 2px solid;
+  background-color:rgb(41, 41, 48);
+  color:white;
+}
+@media  screen and (max-width:300px){
+.footer{
+  flex-wrap: wrap;
+}
+}
+  
+
+.type{
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.type2{
+  position: relative;
+  top: 20px;
+  left:30%;
+}
+.type3{
+  position: relative;
+  top: 20px;
+  left:50%;
+}
+.img20{
+display: block;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 40%; 
+    top: 80%;
+    margin-left: 30px;
+
+}
+.img20:hover{
+  border-radius: 10px;
+}
+@media screen and(max-width:300px){
+  .img20{
+    display: block;
+  }
+}
+.height{
+  display: block;
+  height:90px;
+  width: 90px;
+  margin-top:8%;
+ position: relative;
+ right: 100px;
+  border-radius: 50px;
+}
+@media screen  and (max-width:300px){
+  .height{
+    display: block;
+  }
+}
+  
