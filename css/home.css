@@ -3,9 +3,7 @@
   width: 50px;
   border-radius: 50px;
 }
-.red{
-  
-}
+
 .red:hover{
 background-color: rgb(234, 99, 99);
 border-radius: 10px;
@@ -54,7 +52,6 @@ left: 40%;
 .div{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .footer{
 display: flex;
@@ -62,10 +59,10 @@ flex-wrap: wrap;
   height:300px;
   width: 100%;
   border: 2px solid;
-  background-color:rgb(41, 41, 48) ;- rgb(32,39,56);
+  background-color:rgb(41, 41, 48);
   color:white;
 }
-@media  screen and (max-width:300px;){
+@media  screen and (max-width:300px){
 .footer{
   flex-wrap: wrap;
 }
@@ -114,7 +111,7 @@ display: block;
  right: 100px;
   border-radius: 50px;
 }
-@media screen  and (max-width:300px;){
+@media screen  and (max-width:300px){
   .height{
     display: block;
   }
