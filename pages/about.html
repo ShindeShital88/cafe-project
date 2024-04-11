@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* div image */
+        .imgmain {
+            background-image: url(./..//img/coffee.jpg);
+            height: 400px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .imgdivtext {
+            width: 40%;
+            height: 400px;
+            color: white;
+        }
+
+        .imgdivcolor {
+            width: 40%;
+            height: 400px;
+            background-color: rgba(178, 92, 64, 0.75);
+            color: white;
+            /* opacity: 0.5;color: rgb(255, 255, 255);     */
+        }
+
+        .imgtext1 {
+            padding: 150px 10% 50px 0px;
+            color: white;
+            font-size: 50px;
+        }
+
+        .paddingtext1 {
+            padding: 150px 0 50px 30px;
+        }
+    </style>
 </head>
 <body>
     
+    <!-- Div image -->
+    <div class="imgmain">
+        <div class="imgdivtext">
+            <div>
+                <h2 class="card-title imgtext1">Feel free to <br> contact us</h5>
+            </div>
+        </div>
+        <div class=" imgdivcolor">
+            <div class="paddingtext1">
+                <h6
+                    style="color: #fff; border-bottom: 2px solid #c46b48; padding-bottom: 15px; display: inline-block; font-size: 20px;">
+                    WE ARE OPEN EVERYDAY</h6>
+                <h3 style="font-size: 40px;">9 AM - 8 PM</h3>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
