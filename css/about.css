@@ -62,7 +62,14 @@
 
 }
 
-/* div textimg */
+/* .d1img{
+    width:50%;
+    background-image: url(./..//img/profesionalimg.png);
+    background-size: cover;
+} */
+.d1text{
+    width: 50%;
+}
 
 .headp {
     font-size: 14px;
@@ -158,7 +165,9 @@ height: 75px;
 width: 75px;
 }
 
+.cardh5{
 
+}
 
 .cardp{
 
