@@ -152,9 +152,7 @@
     position: relative;
 }
 
-.midalpic {
-    /* height: 600px; */
-}
+
 
 .spe {
     text-align: center;
@@ -193,9 +191,7 @@ height: 75px;
 width: 75px;
 }
 
-.cardh5{
 
-}
 
 .cardp{
 
@@ -330,7 +326,7 @@ width: 75px;
   
     .img20{
   
-      /* flex-wrap: wrap; */
+      flex-wrap: wrap; 
   
     }
   

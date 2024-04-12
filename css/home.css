@@ -3,11 +3,11 @@
   width: 50px;
   border-radius: 50px;
 }
-
 .red:hover{
 background-color: rgb(234, 99, 99);
 border-radius: 10px;
 transition: 2s;
+transform:scale(0.9);
 } 
 
 .img{
@@ -18,7 +18,7 @@ transition: 2s;
 }
 @media screen and( min-width:200px) {
     .img{
-      display: block;
+     flex-wrap: wrap;
     }
   }
   .burger{
@@ -28,11 +28,12 @@ transition: 2s;
 
   .home{
     transition: 2s;
-
+  
   }
   .home:hover{
     cursor: pointer;
  transform: scale(0.9);
+ box-shadow: 3px 3px 0px 0px;
  
 }
 
@@ -52,8 +53,36 @@ left: 40%;
 .div{
   display: flex;
   flex-wrap: wrap;
+  
 }
+@media screen and (max-width:300px) {
+  .div{
+    flex-wrap: wrap;
+  }
+}
+.div1{
+  display: block;
+height: 400px;
+margin-left: 17%;
+margin-bottom: 10px;
+transition: 2s;
+}
+.div1:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.div2{
+
+  text-align: center;
+}
+
+
+
+
+
 .footer{
+  margin-top: 50px;
 display: flex;
 flex-wrap: wrap;
   height:300px;
@@ -67,53 +96,59 @@ flex-wrap: wrap;
   flex-wrap: wrap;
 }
 }
-  
-
 .type{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   position: relative;
-  top: 20px;
+  top: 60px;
   left: 50px;
 }
-.type2{
-  position: relative;
-  top: 20px;
-  left:30%;
-}
-.type3{
-  position: relative;
-  top: 20px;
-  left:50%;
-}
-.img20{
-display: block;
-    height: 40px;
-    width: 40px;
-    position: relative;
-    left: 40%; 
-    top: 80%;
-    margin-left: 30px;
-
-}
-.img20:hover{
-  border-radius: 10px;
-}
-@media screen and(max-width:300px){
-  .img20{
-    display: block;
+@media screen and(max-width:300px) {
+  .type{
+    /* flex-wrap: wrap; */
   }
 }
-.height{
-  display: block;
-  height:90px;
-  width: 90px;
-  margin-top:8%;
- position: relative;
- right: 100px;
-  border-radius: 50px;
-}
-@media screen  and (max-width:300px){
   .height{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    top: 5%;
+    left:35%;
+  }
+  .type2{
+    
+    position: relative;
+top: 60px;
+left: 60px;
+  }
+  .type3{
     display: block;
+    margin-left: 80%;
+    position: relative;
+top:-30%;
+    right: 20%;
+  }
+.img20{
+  /* display: flex; */
+  /* flex-wrap:wrap; */
+  /* justify-content: space-evenly; */
+  height: 40px;
+  position: relative;
+  left: 90%;
+  top: 50%;
+   margin-left:30px ;
+}
+
+@media screen and (max-width:300px) {
+  .img20{
+    /* flex-wrap: wrap; */
   }
 }
-  
+.since{
+  text-align: center;
+  position: relative;
+  top: 40px;
+   left: 35%;
+}
+ 
