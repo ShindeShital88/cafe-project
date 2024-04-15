@@ -63,7 +63,7 @@ left: 40%;
 .div1{
   display: block;
 height: 400px;
-margin-left: 17%;
+margin-left:24%;
 margin-bottom: 10px;
 transition: 2s;
 }
@@ -81,6 +81,87 @@ transition: 2s;
 
 
 
+<<<<<<< HEAD
+
+ 
+ 
+.footer{
+  
+  display: flex;
+  justify-content: space-around;
+   flex-wrap: wrap;
+    
+  }
+  
+  .main-footer{
+    height:auto;
+    width: 100%;
+    border: 2px solid;
+    background-color:rgb(41, 41, 48);
+    color:white;
+    margin-top: 50px;
+    padding-top:50px ;
+  }
+  
+  .icon {
+    text-align: center;
+    margin: 10px 0px;
+  
+  }
+  @media  screen and (max-width:300px){
+  .footer{
+    flex-wrap: wrap;
+  }
+  }
+  .type{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+  
+  }
+  @media screen and(max-width:300px) {
+    .type{
+     text-align: center;
+     /* margin-bottom: 50px; */
+    }
+  }
+    .height{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+   
+    }
+    .type2{
+      text-align: center;
+    
+  
+    }
+    .type3{
+      text-align: center;
+    }
+  .img20{
+    /* display: flex; */
+    /* flex-wrap:wrap; */
+    /* justify-content: space-evenly; */
+    height: 40px; 
+    position: relative;
+    left: 90%;
+    top: 50%;
+     margin-left:30px ;
+  }
+  
+  @media screen and (max-width:300px) {
+    .img20{
+      /* flex-wrap: wrap; */
+    }
+  }
+  .since{
+    text-align: center;
+    position: relative;
+    top: 40px;
+     left: 35%;
+  }
+=======
 .footer{
   
 display: flex;
@@ -109,11 +190,7 @@ justify-content: space-around;
   flex-wrap: wrap;
 }
 }
-.type{
-  /* display: flex; */
-  /* flex-wrap: wrap; */
 
-}
 @media screen and(max-width:300px) {
   .type{
    text-align: center;
@@ -146,11 +223,7 @@ justify-content: space-around;
    margin-left:30px ;
 }
 
-@media screen and (max-width:300px) {
-  .img20{
-    /* flex-wrap: wrap; */
-  }
-}
+
 .since{
   text-align: center;
   position: relative;
@@ -158,3 +231,4 @@ justify-content: space-around;
    left: 35%;
 }
  
+>>>>>>> 2912663a1bb5bd1bab29df8acdb92e75b2bdb81e
