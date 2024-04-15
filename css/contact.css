@@ -52,6 +52,12 @@ body {
     padding: 150px 0 50px 30px;
 }
 
+.imgdivcolor {
+    width: 40%;
+    height: 400px;
+    background-color: rgba(178, 92, 64, 0.75);
+    color: white;
+}
 /* Cards */
 .card-title .card-text {
     font-size: 15px;
@@ -349,4 +355,10 @@ width: 75px;
     .submitbutton {
         flex-wrap: wrap;
     }
+}
+
+.mapdiv{
+    border-radius: 20px;
+    /* width:500px;
+    height:500px */
 }
